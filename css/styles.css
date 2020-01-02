@@ -18,7 +18,6 @@ header {
   	font-family: 'Slackey', sans-serif;
 }
 
-
 p {
     margin-bottom: 20px;
     color: grey;
@@ -31,6 +30,55 @@ legend {
     font-weight: bold;
 }
 
+/* Form Styles */
+
+
+label {
+  margin-bottom: 6px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.contactElements {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+select {
+  height: 40px;
+  font-size: 15px;
+}
+
+.newsletter {
+  margin-top: 15px;
+}
+
+.newsletterElements {
+  padding: 10px;
+}
+
+.newsletterElements input {
+  margin-right: 15px;
+}
+
+#zip {
+  max-width: 25%;
+}
+
+.feedback {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#feedback {
+  margin-top: 10px;
+  width: 80%;
+}
+/*
 form {
   width: 100%;
   margin: 0 auto;
@@ -39,7 +87,7 @@ form {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   border-top: 3px solid black;
-}
+} */
 
 input,
 textarea,
