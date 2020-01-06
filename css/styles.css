@@ -3,12 +3,12 @@ body {
   font-family: 'Esteban', sans-serif;
   color: #384047;
   margin: 0;
-  background: #b3ffcc;
+  background: #058600;
   color: black;
 }
 
 header {
-  background: #228B22;
+  background: #00003F;
   font-family: 'Slackey', sans-serif;
   font-size: 3em;
   text-align: center;
@@ -18,6 +18,7 @@ header {
   position: relative;
   animation: header-in;
   animation-duration: 2s;
+  border-bottom: 2px solid white;
 }
 
 @keyframes header-in {
@@ -26,7 +27,7 @@ header {
 }
 
 .headline p {
-  color: gray;
+  color: #00003F;
 }
 
 form {
@@ -48,10 +49,11 @@ form {
 }
 
 footer {
-  background: #228B22;
+  background: #00003F;
   color: white;
   text-align: center;
   bottom: 0;
+  border-top: 2px solid white;
 }
 
 fieldset {
@@ -66,11 +68,17 @@ fieldset {
 }
 
 .title {
-  color: white;
+  color: #FEB408;
   font-size: 30px;
   position: relative;
   animation: title-in;
   animation-duration: 3s;
+  letter-spacing: 5px;
+}
+
+.title:hover {
+  letter-spacing: 10px;
+  transition: .2s;
 }
 
 @keyframes title-in {
@@ -89,6 +97,7 @@ fieldset {
 }
 
 .headline {
+  color: #00003F;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 2px;
@@ -108,6 +117,7 @@ fieldset {
 .copyright {
   margin: 0;
   padding: 15px;
+  color: #FEB408;
 }
 
 /* Form Styles */
@@ -123,6 +133,11 @@ label {
 input {
   padding: 10px;
   border-radius: 10%;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #FEB408;
 }
 
 .contactElements {
@@ -165,14 +180,15 @@ select {
 
 .signup {
   font-family: 'Slackey', sans-serif;
-  background: black;
+  background: #FEB408;
   color: white;
   font-size: 20px;
   padding: 12px;
   text-align: center;
   border-radius: 5px;
   width: 100%;
-  box-shadow: 0 -1px 0 lime inset;
+  box-shadow: 0 -1px 0 #40A243 inset;
+  border: 1px solid black;
   border-radius: 10px;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -180,8 +196,8 @@ select {
 }
 
 .signup:hover {
-  background: gray;
-  color: white;
+  background: #00003F;
+  color: #FEB408;
   transition: .8s;
 }
 
