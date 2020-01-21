@@ -180,7 +180,7 @@ select {
 
 .signup {
   font-family: 'Slackey', sans-serif;
-  background: #FEB408;
+  background: rgba(0, 16, 52, .6);
   color: white;
   font-size: 20px;
   padding: 12px;
@@ -196,7 +196,7 @@ select {
 }
 
 .signup:hover {
-  background: #00003F;
+  background: rgba(0, 16, 52, 1);
   color: #FEB408;
   transition: .8s;
 }
